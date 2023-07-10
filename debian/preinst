@@ -4,6 +4,7 @@ set -e
 case $1 in
     install|upgrade)
         addgroup --system gpio || true
+        addgroup --system spidev || true
         ;;
 esac
     
