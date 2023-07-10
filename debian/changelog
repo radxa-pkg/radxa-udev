@@ -1,3 +1,12 @@
+radxa-udev (0.1.1) jammy; urgency=medium
+
+  [ ZHANG Yuntian ]
+  * Support rootless spidev access
+  * Support rootless PWM access
+  * Trigger on change
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Mon, 10 Jul 2023 11:44:17 +0000
+
 radxa-udev (0.1.0) stable; urgency=high
 
   * Initial commit
