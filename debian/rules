@@ -12,3 +12,4 @@ override_dh_builddeb:
 override_dh_installudev:
 	dh_installudev -pradxa-udev --name=radxa-gpiod --priority=99
 	dh_installudev -pradxa-udev --name=radxa-spidev --priority=99
+	dh_installudev -pradxa-udev --name=radxa-pwm --priority=99

@@ -1,0 +1,4 @@
+SUBSYSTEM=="pwm*", KERNEL=="pwm*", ACTION=="add|change", , PROGRAM="/bin/sh -c '\
+    find /sys/class/pwm/pwmchip*/ -exec chown root:pwm {} +; \
+    find /sys/class/pwm/pwmchip*/ -exec chmod 775 {} +; \
+'"

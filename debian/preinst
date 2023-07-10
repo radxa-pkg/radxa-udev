@@ -5,6 +5,7 @@ case $1 in
     install|upgrade)
         addgroup --system gpio || true
         addgroup --system spidev || true
+        addgroup --system pwm || true
         ;;
 esac
     
