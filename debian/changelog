@@ -1,3 +1,17 @@
+radxa-udev (0.1.2) jammy; urgency=medium
+
+  [ dependabot[bot] ]
+  * Bump actions/checkout from 3 to 4
+  * Bump actions/upload-artifact from 3 to 4
+  * Bump actions/download-artifact from 3 to 4
+  * Bump softprops/action-gh-release from 1 to 2
+
+  [ Alvin Xie ]
+  * add aic8800 udev for rename wierless name
+  * modify aic8800 rename from env
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Thu, 16 May 2024 03:15:01 +0000
+
 radxa-udev (0.1.1) jammy; urgency=medium
 
   [ ZHANG Yuntian ]
