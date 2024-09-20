@@ -1,1 +1,1 @@
-SUBSYSTEM=="net", ACTION=="add", ATTR{address}=="88:00:*", NAME="$ENV{ID_NET_SLOT}"
+SUBSYSTEM=="net", ACTION=="add", ATTR{address}=="88:00:*", NAME="$env{ID_NET_SLOT}"
